@@ -1,30 +1,42 @@
-Python Status
-
-Superstore Sales Analysis
+Superstore Data Warehouse
 📌 Project Overview
-This project focuses on cleaning and transforming raw sales data into a structured and validated dataset ready for business analysis and dashboarding.
+
+This project transforms the Superstore CSV dataset into a normalized PostgreSQL database and prepares the data for analytical queries and business intelligence.
+
+The goal is to build a clean relational database and generate useful metrics for business analysis.
 
 🛠 Tools Used
+
 Python (Pandas)
+PostgreSQL
+SQLAlchemy
+SQL
 Jupyter Notebook
+
 🔄 Project Workflow
-Data Import
+
+Database Creation
+Database Connection (Python → PostgreSQL)
+Data Modeling & Normalization
 Data Cleaning
-Feature Engineering
-Commercial KPIs
-Financial KPIs
-Data Validation
-Export Clean Dataset
-📈 Key Business Metrics
-Profit
-Profit Ratio (%)
-Monthly Sales Growth
-Delivery Delay
-Outlier Detection (IQR)
+Data Loading (ETL)
+SQL Transformations
+Creation of Analytical Views
+
+📊 Analytical Metrics
+
+Total Sales per Product
+Total Sales per Category
+Total Sales per Region
+Average Profit per Customer
+
 📂 Files Included
-store.csv (raw dataset)
-superstore_clean.csv (clean dataset)
-superstore-data-cleaning.ipynb
-Project documentation
+
+superstore.csv (raw dataset)
+etl_pipeline.ipynb (ETL process)
+sql_views.sql (analytical SQL views)
+project_documentation.pdf
+
 🎯 Objective
-Transform raw sales data into actionable business insights.
+
+Build a structured data warehouse from raw sales data and prepare it for analysis using SQL and BI tools.
